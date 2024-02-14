@@ -1,0 +1,393 @@
+.A {
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 2px solid black;
+    min-height: 70px;
+    height: auto;
+    position: sticky;
+    top: 0%;
+    padding: 1%;
+    box-shadow: 1px 0px 1px black;
+    background-color: white;
+    flex-wrap: wrap;
+    z-index: 5;
+
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+    font-size: 13px;
+}
+
+#A {
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 2px 2px 8px red;
+
+}
+
+#B {
+    font-size: 20px;
+}
+
+.B {
+    padding-top: 1px;
+}
+
+#A:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: red;
+}
+
+#B:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: orangered;
+}
+
+#C:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: green;
+}
+
+#D:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: blue;
+}
+
+#E:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: yellow;
+}
+
+#F:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: brown;
+}
+
+#G:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: purple;
+}
+
+#I:hover {
+    transform: scale(1.2);
+    transition: 2 sec;
+    background-color: orange;
+}
+
+#C {
+    font-size: 20px;
+
+}
+
+#D {
+    font-size: 20px;
+}
+
+#E {
+    font-size: 20px;
+}
+
+#F {
+    font-size: 20px;
+}
+
+#G {
+    font-size: 20px;
+}
+
+#I {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+}
+
+.khatam {
+    width: 40%;
+    height: 25%;
+    border: 2px solid whitesmoke;
+    margin-left: 7%;
+    float: left;
+}
+
+.l {
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.ll {
+    padding-left: 2%;
+
+}
+
+.khatam::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s */
+
+.thdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    gap: 20px;
+}
+
+.to {
+    width: 400px;
+}
+
+#q {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.io {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.fodiv::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.u {
+    float: inline-start;
+    width: 20%;
+    height: 40%;
+    padding: 1%;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+
+.fidiv::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#s {
+    width: 25%;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+
+.sidiv {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.mo {
+    padding-top: 80px;
+    padding-left: 70px;
+}
+
+
+.n {
+    border-radius: 20px;
+    width: 20%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    right: 12px;
+    top: 15%;
+}
+
+.v {
+    padding-left: 100px;
+    margin-bottom: 10%;
+}
+
+.k {
+    position: absolute;
+    left: 31%;
+    top: 45%;
+}
+
+.j {
+    position: absolute;
+    left: 51%;
+    top: 45%; 
+}
+
+.e {
+    position: absolute;
+    right: 10px;
+    top: 45%; 
+}
+
+.r {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width : 750px) {
+
+    .secdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .khatam {
+        width: 80%;
+        border: 2px solid whitesmoke;
+        margin: 16px auto;
+        float: none;
+    }
+
+    .thdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .to {
+        float: none;
+        width: 80%;
+        margin: 16px auto;
+        padding: 15px;
+    }
+
+    ul img {
+        width: 16px;
+    }
+
+    #A {
+        font-size: 20px;
+    }
+
+    #B {
+        font-size: 16px;
+    }
+
+    #C {
+        font-size: 16px;
+
+    }
+
+    #D {
+        font-size: 16px;
+    }
+
+    #E {
+        font-size: 16px;
+    }
+
+    #F {
+        font-size: 16px;
+    }
+
+    #G {
+        font-size: 16px;
+    }
+
+    #I {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width : 500px) {
+
+    ul img {
+        width: 12px;
+    }
+
+    #A {
+        font-size: 16px;
+    }
+
+    #B {
+        font-size: 12px;
+    }
+
+    #C {
+        font-size: 12px;
+
+    }
+
+    #D {
+        font-size: 12px;
+    }
+
+    #E {
+        font-size: 12px;
+    }
+
+    #F {
+        font-size: 12px;
+    }
+
+    #G {
+        font-size: 12px;
+    }
+    #I {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .e {
+        position: absolute;
+        right: 15%;
+        top: 6000px;
+    }
+    .k {
+        padding-left: 300px;
+        position: absolute;
+        top: 4880px;
+
+    }
+    .sidiv {
+        background-color: black;
+        color: white;
+        height: 412px;
+    }
+
+
+}
